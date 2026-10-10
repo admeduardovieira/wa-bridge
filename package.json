@@ -1,0 +1,38 @@
+{
+  "name": "wa-bridge",
+  "version": "1.1.0",
+  "description": "WhatsApp ↔ LLM bridge — connect WhatsApp to any OpenAI-compatible LLM endpoint via QR code. No Meta, no browser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node --test test/index.test.js",
+    "lint": "node --check index.js && eslint . --ext .js 2>/dev/null || true",
+    "lint:fix": "eslint . --ext .js --fix 2>/dev/null || true"
+  },
+  "keywords": [
+    "whatsapp",
+    "bridge",
+    "llm",
+    "ai",
+    "chatbot",
+    "baileys",
+    "openai-compatible",
+    "solar"
+  ],
+  "author": "Eduardo Vieira <eduardovieira@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "baileys": "^7.0.0-rc14",
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.1.0"
+  },
+  "preferStrict": true,
+  "type": "commonjs"
+}

@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Session data (WhatsApp auth state)
+session/
+session/**
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Build output
+dist/
+build/
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Claude / ECC
+.claude/
+.claudecode/
